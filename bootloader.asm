@@ -1,3 +1,10 @@
+;======================================
+; File name: bootloader.asm
+; Project: TEST-OS
+; Author: Copyright (c) 2026 Grushdeck
+; Description: Bootloader
+;======================================
+
 [bits 16]
 [org 0x7c00]
 
