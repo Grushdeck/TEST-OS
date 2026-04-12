@@ -573,30 +573,30 @@ cmd_pwd       db "pwd", 0
 cmd_whoami    db "whoami", 0
 
 
-help_msg      db "¦==========================================================¦", 13, 10
-              db "¦  UNIX-16 COMMANDS                                        ¦", 13, 10
-              db "¦==========================================================¦", 13, 10
-              db "¦  ls/dir   - show files                                   ¦", 13, 10
-              db "¦  fetch    - OS info                                      ¦", 13, 10
-              db "¦  clear    - clear screen                                 ¦", 13, 10
-              db "¦  help     - this help                                    ¦", 13, 10
-              db "¦  reboot   - restart system                               ¦", 13, 10
-              db "¦  date     - show date                                    ¦", 13, 10
-              db "¦  time     - show time                                    ¦", 13, 10
-              db "¦  mem      - memory info                                  ¦", 13, 10
-              db "¦  beep     - sound beep                                   ¦", 13, 10
-              db "¦  echo     - print text                                   ¦", 13, 10
-              db "¦  matrix   - falling code effect                          ¦", 13, 10
-              db "¦  ascii    - ASCII table                                  ¦", 13, 10
-              db "¦  calc     - simple calculator                            ¦", 13, 10
-              db "¦  hex      - hex converter                                ¦", 13, 10
-              db "¦  bin      - binary converter                             ¦", 13, 10
-              db "¦  clock    - digital clock                                ¦", 13, 10
-              db "¦  banner   - cool ASCII art                               ¦", 13, 10
-              db "¦  cpu      - CPU info                                     ¦", 13, 10
-              db "¦  osinfo   - OS information                               ¦", 13, 10
-              db "¦  credits  - show credits                                 ¦", 13, 10
-              db "¦----------------------------------------------------------¦", 13, 10, 0
+help_msg      db "Â¦==========================================================Â¦", 13, 10
+              db "Â¦  TEST OS COMMANDS                                        Â¦", 13, 10
+              db "Â¦==========================================================Â¦", 13, 10
+              db "Â¦  ls/dir   - show files                                   Â¦", 13, 10
+              db "Â¦  fetch    - OS info                                      Â¦", 13, 10
+              db "Â¦  clear    - clear screen                                 Â¦", 13, 10
+              db "Â¦  help     - this help                                    Â¦", 13, 10
+              db "Â¦  reboot   - restart system                               Â¦", 13, 10
+              db "Â¦  date     - show date                                    Â¦", 13, 10
+              db "Â¦  time     - show time                                    Â¦", 13, 10
+              db "Â¦  mem      - memory info                                  Â¦", 13, 10
+              db "Â¦  beep     - sound beep                                   Â¦", 13, 10
+              db "Â¦  echo     - print text                                   Â¦", 13, 10
+              db "Â¦  matrix   - falling code effect                          Â¦", 13, 10
+              db "Â¦  ascii    - ASCII table                                  Â¦", 13, 10
+              db "Â¦  calc     - simple calculator                            Â¦", 13, 10
+              db "Â¦  hex      - hex converter                                Â¦", 13, 10
+              db "Â¦  bin      - binary converter                             Â¦", 13, 10
+              db "Â¦  clock    - digital clock                                Â¦", 13, 10
+              db "Â¦  banner   - cool ASCII art                               Â¦", 13, 10
+              db "Â¦  cpu      - CPU info                                     Â¦", 13, 10
+              db "Â¦  osinfo   - OS information                               Â¦", 13, 10
+              db "Â¦  credits  - show credits                                 Â¦", 13, 10
+              db "Â¦----------------------------------------------------------Â¦", 13, 10, 0
 
 date_msg      db "Date: 2026-04-12", 13, 10, 0
 time_msg      db "Time: ", 0
@@ -625,25 +625,25 @@ cpu_msg       db "CPU: Intel 8086 compatible", 13, 10
 osinfo_msg    db "OS: Unix-16 v2.0", 13, 10
               db "Architecture: 16-bit x86", 13, 10
               db "Filesystem: FAT12", 13, 10
-              db "Shell: Unix-16 CLI", 13, 10, 0
+              db "Shell: TEST OS CLI", 13, 10, 0
 
-credits_msg   db "¦================================================¦", 13, 10
-              db "¦                    CREDITS                     ¦", 13, 10
-              db "¦================================================¦", 13, 10
-              db "¦  OS Name: TEST OS v4.0                         ¦", 13, 10
-              db "¦  Language: NASM Assembly                       ¦", 13, 10
-              db "¦  Made by: MrCode                               ¦", 13, 10
-              db "¦================================================¦", 13, 10, 0
+credits_msg   db "Â¦================================================Â¦", 13, 10
+              db "Â¦                    CREDITS                     Â¦", 13, 10
+              db "Â¦================================================Â¦", 13, 10
+              db "Â¦  OS Name: TEST OS v4.0                         Â¦", 13, 10
+              db "Â¦  Language: NASM Assembly                       Â¦", 13, 10
+              db "Â¦  Made by: MrCode                               Â¦", 13, 10
+              db "Â¦================================================Â¦", 13, 10, 0
 
 pwd_msg       db "A:\", 13, 10, 0
 whoami_msg    db "root", 13, 10, 0
 
 banner_msg    db "==========================================================", 13, 10
-              db "  --------¬-------¬-------¬--------¬     ------¬ -------¬ ", 13, 10
-              db "  L==--ã==---ã====---ã====-L==--ã==-    --ã===--¬--ã====- ", 13, 10
-              db "     --¦   -----¬  -------¬   --¦       --¦   --¦-------¬ ", 13, 10
-              db "     --¦   --ã==-  L====--¦   --¦       --¦   --¦L====--¦ ", 13, 10
-			  db "     --¦   -------¬-------¦   --¦       L------ã--------¦ ", 13, 10
+              db "  --------Â¬-------Â¬-------Â¬--------Â¬     ------Â¬ -------Â¬ ", 13, 10
+              db "  L==--Ã£==---Ã£====---Ã£====-L==--Ã£==-    --Ã£===--Â¬--Ã£====- ", 13, 10
+              db "     --Â¦   -----Â¬  -------Â¬   --Â¦       --Â¦   --Â¦-------Â¬ ", 13, 10
+              db "     --Â¦   --Ã£==-  L====--Â¦   --Â¦       --Â¦   --Â¦L====--Â¦ ", 13, 10
+			  db "     --Â¦   -------Â¬-------Â¦   --Â¦       L------Ã£--------Â¦ ", 13, 10
               db "     L=-   L======-L======-   L=-        L=====- L======- ", 13, 10
               db "                                                          ", 13, 10
               db "                |OPERATING SYSTEM v4.0|                   ", 13, 10
@@ -658,7 +658,7 @@ ascii_buffer  times 4 db 0
 
 matrix_chars  db "01", 0
 
-ui_top        db " [ Unix-16 v4.0 - BIOS Style Interface ] ", 13, 10
+ui_top        db " [ TEST OS v4.0 - BIOS Style Interface ] ", 13, 10
               db "===========================================", 13, 10, 0
 welcome_msg   db " System ready. Type 'help' for commands.", 13, 10, 0
 prompt        db "# ", 0
@@ -670,7 +670,7 @@ cmd_fetch     db "fetch", 0
 cmd_clear     db "clear", 0
 cmd_help      db "help", 0
 
-dir_header    db " Volume in drive A is UNIX-16", 13, 10
+dir_header    db " Volume in drive A is TEST OS", 13, 10
               db " Volume Serial Number is 16D2-0412", 13, 10
               db " Directory of A:\ ", 13, 10
               db 13, 10, 0
@@ -683,11 +683,11 @@ fat_files     db "KERNEL   SYS   8,192  04-12-26  12:00p", 13, 10
               db "       5 file(s)      8,928 bytes", 13, 10
               db "                         free", 13, 10, 0
 
-fetch_art     db "  --------¬-------¬-------¬--------¬     ------¬ -------¬        ", 13, 10
-              db "  L==--ã==---ã====---ã====-L==--ã==-    --ã===--¬--ã====-        ", 13, 10
-              db "     --¦   -----¬  -------¬   --¦       --¦   --¦-------¬        ", 13, 10
-              db "     --¦   --ã==-  L====--¦   --¦       --¦   --¦L====--¦        ", 13, 10
-              db "     --¦   -------¬-------¦   --¦       L------ã--------¦        ", 13, 10
+fetch_art     db "  --------Â¬-------Â¬-------Â¬--------Â¬     ------Â¬ -------Â¬        ", 13, 10
+              db "  L==--Ã£==---Ã£====---Ã£====-L==--Ã£==-    --Ã£===--Â¬--Ã£====-        ", 13, 10
+              db "     --Â¦   -----Â¬  -------Â¬   --Â¦       --Â¦   --Â¦-------Â¬        ", 13, 10
+              db "     --Â¦   --Ã£==-  L====--Â¦   --Â¦       --Â¦   --Â¦L====--Â¦        ", 13, 10
+              db "     --Â¦   -------Â¬-------Â¦   --Â¦       L------Ã£--------Â¦        ", 13, 10
               db "     L=-   L======-L======-   L=-        L=====- L======-    v4.0", 13, 10, 0
 
 input_buffer times 128 db 0
