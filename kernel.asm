@@ -1,3 +1,10 @@
+;======================================
+; File name: bootloader.asm
+; Project: TEST-OS
+; Author: Copyright (c) 2026 Grushdeck
+; Description: Kernel
+;======================================
+
 [bits 16]
 [org 0x1000]
 
