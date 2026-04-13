@@ -1,5 +1,5 @@
 ;======================================
-; File name: bootloader.asm
+; File name: kernel.asm
 ; Project: TEST-OS
 ; Author: Copyright (c) 2026 Grushdeck
 ; Description: Kernel
